@@ -84,11 +84,10 @@
 
 /* PIXELS */
 
-
 @media (max-width: 1866px){
     .img-pixels{
-        width: 260px;
-        height: 190px;
+        width: 10px;
+        height: 10px;
     }
 }
 
