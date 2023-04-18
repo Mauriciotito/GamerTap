@@ -84,9 +84,9 @@
 
 /* PIXELS */
 
-@media (max-width: 1880px){
+@media (max-width: 1890px){
     .img-pixels{
-        width: 300px;
+        width: 280px;
         height: 190px;
     }
 }
