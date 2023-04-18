@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index-query.css">
+    <link rel="shortcut icon" href="img/faviconbranco.ico" type="favicon">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond&family=Dongle&display=swap" rel="stylesheet">
+
+    <title>ValoranTap</title>
+</head>
+<body>
+    <header class="back-fundo">
+        <div class="container-flex" onscroll="background" id="menu">
+            <div class="child-flex">
+                <img src="img/logobranco.png" alt="" width="70px">
+
+                <nav class="nav">
+                    <ol class="container-list-nav">
+                        <li class="list-style"><a class="link-style" href="index.html">HOME</a></li>
+
+                        <li class="list-style"><a class="link-style" href="index.html">AGENTES</a></li>
+
+                        <li class="list-style"><a class="link-style" href="index.html">PIXELS</a></li>
+
+                        <li class="list-style"><a class="link-style" href="index.html">MAPAS</a></li>
+                        
+                        <li class="list-style"><a class="link-style" href="index.html">PACHT NOTES</a></li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-main" id="agentes">
+            <div class="child-main-img">
+                <img class="img-main" src="img/agentes/agentes.png" alt="">
+            </div>
+
+            <div class="child-main-desc">
+                <div class="desc-agentes" >
+                    <h1 class="titulo-agentes">AGENTES</h1>
+
+                    <p class="desc">Os agentes de Valorant são peças importantes no sucesso de sua equipe. Conhecer todos eles é um ponto chave para o caminho de suas vitórias!</p>
+                </div>
+
+                <a class="botao" href="">VER AGENTES</a>
+            </div>
+        </div>
+
+        <div class="container-pixels">
+
+            <div class="child-pixels-desc">
+
+                <div class="container-desc-pixels">
+                    <h1 class="titulo-pixels">PIXELS</h1>
+
+                    <p class="child-desc-pixels">Os pixels em Valorant surpreende os adversários e garante diversas vitórias. Seja a pessoa diferenciada no after-plant ou faça aquele abate de qualidade!</p>
+                </div>
+
+                <a class="botao" href="">SAIBA MAIS</a>
+            </div>
+
+            <div class="container-img-pixels">
+
+                <div class="child-img-pixels">
+                    <div>
+                        <img class="img-pixels" src="img/Pixels/Sova/pixel-sova-2.png" alt="" width="400px">
+
+                        <img class="img-pixels" src="img/Pixels/Viper/pixel-viper.png" alt="" width="400px">
+                    </div>
+
+                    <div>
+                        <img class="img-pixels" src="img/Pixels/Fade/pixel-fade.png" alt="" width="400px">
+
+                        <img class="img-pixels" src="img/Pixels/Killjoy/pixel-kj.png" alt="" width="400px">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-mapas">
+            <div class="container-desc-mapas">
+
+                <div class="child-desc-mapas">
+                    <h1 class="titulo-mapas">MAPAS</h1>
+
+                    <p class="desc-mapas">Conheça todos os mapas como a palma de sua mão, e não fique mais perdido nas posições! Tenha vantagem em cima de seus adversário e ganhe com clareza!</p>
+
+                    <a class="botao-mapas" href="">SAIBA MAIS</a>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="container-footer">
+        <div class="child-footer">
+            <div class="container-contatos">
+
+                <div class="container-email">
+                    <h1 class="email-titulo">EMAIL</h1>
+                    <p class="email">edutran.ms@gmail.com</p>
+                </div>
+
+                <div class="telefone">
+                    <h1 class="telefone-titulo">TELEFONE</h1>
+                    <p class="telefone-numero">+55 (11) 9.7137-5303</p>
+                </div>
+
+            </div>
+            
+            <div class="logo-footer">
+                <img src="img/logobranco.png" alt="" width="50px">
+                <p class="emp-footer">GamerTap &#x000AE;</p>
+            </div>
+
+            <div class="sociais">
+                <h1 class="sociais-titulo">REDES SOCIAIS</h1>
+                <img src="img/icons8-f-do-facebook.svg" alt="" width="25px">
+                <img src="img/icons8-instagram.svg" alt="" width="25px">
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const menu = document.querySelector("#menu");
+  
+        function activeScroll() {
+          menu.classList.toggle("ativo", scrollY > 0);
+        }
+  
+        window.addEventListener("scroll", activeScroll);
+    </script>
+</body>
+</html>

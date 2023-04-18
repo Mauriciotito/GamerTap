@@ -1,0 +1,285 @@
+/* HEADER */
+
+.back-fundo{
+    background-image: url(../img/wallpaper-valorant.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 800px;
+    width: 100%;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.671);
+    box-shadow: black 0 0 15px;
+}
+
+.child-flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-flex.ativo{
+    background: rgb(17, 17, 17);
+    box-shadow: black 0 2px 30px;
+    position: fixed;
+    width: 100%;
+}
+
+.container-list-nav{
+    display: flex;
+}
+
+.list-style{
+    text-decoration: none;
+    list-style: none;
+    padding: 0 30px;
+    font-size: 20px;
+}
+
+.link-style{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.link-style:hover{
+    border-bottom: 1.5px rgb(255, 255, 255) solid;
+}
+
+/* MAIN */
+
+/* AGENTES */
+
+.container-main{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../img/agentes/background-agentes.JPG);
+    background-size: 2000px;
+    background-position: right;
+}
+
+.img-main{
+    width: 1000px;
+}
+
+.child-main-desc{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 90px;
+    background-color: rgba(0, 0, 0, 0.300);
+}
+
+.desc-agentes{
+    margin-bottom: 50px;
+}
+
+.titulo-agentes{
+    font-size: 70px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.desc{
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.botao{
+    background-color: rgb(216, 50, 50);
+    border: 1px solid rgba(255, 255, 255, 0.637);
+    border-radius: 10px;
+    padding: 17px 26px;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.botao:hover{
+    transform: scale(1.1, 1.1);
+}
+
+/* PIXELS */
+
+.container-pixels{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../img/backgorund.jpg);
+    background-position: left;
+    background-size: 1400px;
+}
+
+.child-pixels-desc{
+    background-color: rgba(0, 0, 0, 0.300);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-img-pixels{
+    display: flex;
+    width: 100%;
+}
+
+.titulo-pixels{
+    font-size: 70px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.child-desc-pixels{
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    margin: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.child-img-pixels{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-pixels{
+    height: 260px;
+    width: 440px;
+    margin: 9px;
+}
+
+/* MAPAS */
+
+.container-mapas{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../img/Mapas/todos-os-mapas.png);
+    background-position: center;
+    height: 800px;
+    width: 100%;
+}
+
+.child-desc-mapas{
+    background-color: rgba(0, 0, 0, 0.712);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.titulo-mapas{
+    font-size: 100px;
+    margin-bottom: 50px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.desc-mapas{
+    font-size: 50px;
+    line-height: 100px;
+    text-align: center;
+    padding: 0 100px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.botao-mapas{
+    background-color: rgb(216, 50, 50);
+    border: 1px solid rgba(255, 255, 255, 0.637);
+    border-radius: 10px;
+    padding: 17px 26px;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 40px;
+    color: white;
+}
+
+.botao-mapas:hover{
+    transform: scale(1.1, 1.1);
+}
+
+/* FOOTER */
+
+.container-footer{
+    background-color: rgb(17, 17, 17);
+    height: 190px;
+    color: white;
+    font-family: 'Dongle', sans-serif;
+}
+
+.child-footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+}
+
+.container-contatos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-email{
+    padding-bottom: 30px;
+}
+
+.email-titulo{
+    font-size: 25px;
+}
+
+.email{
+    font-size: 22px;
+}
+
+.telefone-titulo{
+    font-size: 25px;
+}
+
+.telefone{
+    font-size: 22px;
+}
+
+.logo-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.emp-footer{
+    font-size: 19px;
+}
+
+.sociais{
+    text-align: center;
+}
+
+.sociais-titulo{
+    font-size: 25px;
+}
+
