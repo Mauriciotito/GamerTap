@@ -84,10 +84,10 @@
 
 /* PIXELS */
 
-@media (min-width: 1920px){
-    .child-desc-pixels{
-        font-size: 20px;
-        line-height: 40px;
+@media (max-width: 1920px){
+    .img-pixels{
+        width: 100px;
+        height: 90px;
     }
 }
 
