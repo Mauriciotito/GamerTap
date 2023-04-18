@@ -1,5 +1,162 @@
+
+/* HEADER */
+
+@media(max-width: 1800px){
+    .list-style{
+        font-size: 18px;
+    }
+
+    .img-logo-header{
+        width: 60px;
+    }    
+}
+
+@media (max-width: 1474px){
+    .back-fundo{
+        height: 550px;
+    }
+
+    .img-logo-header{
+        width: 50px;
+    }
+
+    .list-style{
+        font-size: 13px;
+    }
+}
+
+/* AGENTES */
+
 @media(max-width: 1800px){
     .img-main{
-        width: 1000px;
+        width: 900px;
+    }
+}
+
+@media(max-width: 1717px){
+    .img-main{
+        width: 800px;
+    }
+
+    .titulo-agentes{
+        font-size: 55px;
+    }
+
+    .desc{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .botao{
+        font-size: 20px;
+        padding: 15px 22px;
+    }
+
+    .child-main-desc{
+        padding: 40px;
+    }
+}
+
+@media (max-width: 1474px){
+    .img-main{
+        width: 600px;
+    }
+
+    .titulo-agentes{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .desc{
+        font-size: 25px;
+        line-height: 35px;
+        margin: 50px;
+    }
+
+    .desc-agentes{
+        margin: 0;
+    }
+
+    .child-main-desc{
+        padding: 40px;
+    }
+}
+
+/* PIXELS */
+
+@media (max-width: 1866px){
+    .img-pixels{
+        width: 300px;
+        height: 190px;
+    }
+}
+
+@media(max-width: 1717px){
+    .titulo-pixels{
+        font-size: 55px;
+    }
+
+    .child-desc-pixels{
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 1474px){
+    .img-pixels{
+        width: 200px;
+        height: 120px;
+    }
+
+    .child-pixels-desc{
+        padding: 30px;
+    }
+
+    .titulo-pixels{
+        font-size: 40px;
+    }
+
+    .child-desc-pixels{
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .botao{
+        font-size: 15px;
+        padding: 12px 20px;
+    }
+}
+
+/* MAPAS */
+
+@media(max-width: 1800px){
+    .titulo-mapas{
+        font-size: 98px;
+    }
+
+    .desc-mapas{
+        font-size: 40px;
+        line-height: 60px;
+        margin: 0 280px;
+    }
+
+    .container-mapas{
+        height: 700px;
+    }
+}
+
+@media(max-width: 1717px){
+    .titulo-mapas{
+        font-size: 80px;
+    }
+
+    .desc-mapas{
+        font-size: 35px;
+        line-height: 60px;
+        margin: 0 250px;
+    }
+
+    .container-mapas{
+        height: 650px;
     }
 }
