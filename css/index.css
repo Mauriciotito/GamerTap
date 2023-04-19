@@ -4,7 +4,7 @@
     background-image: url(../img/wallpaper-valorant.jpg);
     background-size: cover;
     background-position: bottom;
-    height: 800px;
+    height: 939px;
     width: 100%;
 }
 
@@ -193,17 +193,17 @@
 }
 
 .titulo-mapas{
-    font-size: 100px;
-    margin-bottom: 50px;
+    font-size: 90px;
     color: white;
     font-family: 'Bebas Neue', cursive;
 }
 
 .desc-mapas{
     font-size: 50px;
-    line-height: 100px;
+    line-height: 90px;
+    margin: 50px;
+    padding: 0 140px;
     text-align: center;
-    padding: 0 100px;
     color: white;
     font-family: 'Bebas Neue', cursive;
 }
@@ -216,7 +216,6 @@
     font-family: 'Bebas Neue', cursive;
     text-decoration: none;
     font-size: 25px;
-    margin-top: 40px;
     color: white;
 }
 

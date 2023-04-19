@@ -2,6 +2,10 @@
 /* HEADER */
 
 @media(max-width: 1800px){
+    .back-fundo{
+        height: 854px;
+    }
+
     .list-style{
         font-size: 18px;
     }
@@ -11,17 +15,31 @@
     }    
 }
 
-@media (max-width: 1474px){
+@media(max-width: 1717px){
     .back-fundo{
-        height: 550px;
+        height: 751px;
+    }
+
+    .list-style{
+        font-size: 15px;
     }
 
     .img-logo-header{
         width: 50px;
     }
+}
+
+@media (max-width: 1474px){
+    .back-fundo{
+        height: 626px;
+    }
 
     .list-style{
-        font-size: 13px;
+        font-size: 12px;
+    }
+
+    .img-logo-header{
+        width: 40px;
     }
 }
 
@@ -35,11 +53,15 @@
 
 @media(max-width: 1717px){
     .img-main{
-        width: 800px;
+        width: 874px;
     }
 
     .titulo-agentes{
         font-size: 55px;
+    }
+
+    .child-main-desc{
+        padding: 65px;
     }
 
     .desc{
@@ -51,44 +73,59 @@
         font-size: 20px;
         padding: 15px 22px;
     }
+}
 
-    .child-main-desc{
-        padding: 40px;
+@media(max-width: 1600px){
+    .img-main{
+        width: 760px;
+    }
+
+    .titulo-agentes{
+        font-size: 47px
+    }    
+
+    .desc{
+        font-size: 30px;
     }
 }
 
 @media (max-width: 1474px){
     .img-main{
-        width: 600px;
+        width: 670px;
     }
 
     .titulo-agentes{
-        font-size: 40px;
-        margin-bottom: 30px;
-    }
-
-    .desc{
-        font-size: 25px;
-        line-height: 35px;
-        margin: 50px;
-    }
-
-    .desc-agentes{
-        margin: 0;
+        font-size: 40px
     }
 
     .child-main-desc{
         padding: 40px;
     }
+
+    .desc{
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .botao{
+        font-size: 15px;
+        padding: 12px 20px;
+    }
 }
 
 /* PIXELS */
 
+@media (max-width: 1879px){
+    .img-pixels{
+        width: 360px;
+        height: 200px;
+    }
+}
+
 @media (max-width: 1866px){
     .img-pixels{
-        width: 260px;
+        width: 330px;
         height: 190px;
-        
     }
 }
 
@@ -103,14 +140,31 @@
     }
 }
 
+@media(max-width: 1600px){
+    .titulo-pixels{
+        font-size: 47px
+    }    
+
+    .child-desc-pixels{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1483px){
+    .img-pixels{
+        width: 300px;
+        height: 190px;
+    }
+}
+
 @media (max-width: 1474px){
     .img-pixels{
-        width: 200px;
-        height: 120px;
+        width: 320px;
+        height: 200px;
     }
 
     .child-pixels-desc{
-        padding: 30px;
+        padding: 20px;
     }
 
     .titulo-pixels{
@@ -120,6 +174,7 @@
     .child-desc-pixels{
         font-size: 25px;
         line-height: 35px;
+        margin: 50px;
     }
 
     .botao{
@@ -128,36 +183,68 @@
     }
 }
 
-/* MAPAS */
-
-@media(max-width: 1800px){
-    .titulo-mapas{
-        font-size: 98px;
-    }
-
-    .desc-mapas{
-        font-size: 40px;
-        line-height: 60px;
-        margin: 0 280px;
-    }
-
-    .container-mapas{
-        height: 700px;
+@media (max-width: 1400px){
+    .img-pixels{
+        width: 250px;
+        height: 150px;
     }
 }
 
-@media(max-width: 1717px){
+/* MAPAS */
+
+@media(max-width: 1800px){
     .titulo-mapas{
         font-size: 80px;
     }
 
     .desc-mapas{
-        font-size: 35px;
+        font-size: 40px;
         line-height: 60px;
-        margin: 0 250px;
+        padding: 0 100px;
     }
 
     .container-mapas{
         height: 650px;
+    }
+}
+
+@media(max-width: 1717px){
+    .titulo-mapas{
+        font-size: 60px;
+    }
+
+    .desc-mapas{
+        font-size: 30px;
+        line-height: 60px;
+        padding: 0 150px;
+    }
+
+    .container-mapas{
+        height: 550px;
+    }
+
+    .botao-mapas{
+        font-size: 20px;
+        padding: 15px 22px;
+    }
+}
+
+@media (max-width: 1474px){
+    .titulo-mapas{
+        font-size: 50px;
+    }
+
+    .desc-mapas{
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .container-mapas{
+        height: 450px;
+    }
+
+    .botao-mapas{
+        font-size: 15px;
+        padding: 12px 20px;
     }
 }
